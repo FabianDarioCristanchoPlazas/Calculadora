@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora {
+    width: 620px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-input-ingreso-datos {
+    width: 612px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-ingreso-datos,
+.input-resultado {
+    width: 612px;
+    height: 50px;
+    border-top-color: blue;
+    border-width: 5px 1px 1px 1px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+
+}
+
+.container-btn-numero-operaciones {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-auto-rows: auto;
+    border-color: black;
+}
+
+button {
+    margin: 0 10px 10px 0;
+    height: 40px;
+    width: 79px;
+}
